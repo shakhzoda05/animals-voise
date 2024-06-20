@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 20px;
+  width: 980px;
+}
+.hero-section {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.animals-style {
+  font-size: 77px;
+  font-family: cursive;
+  color: rgb(251, 186, 89);
+}
+.btn {
+  margin-top: 7px;
+  padding: 5px 15px;
+  color: rgb(247, 244, 244);
+  font-family: cursive;
+  background-color: rgb(224, 169, 102);
+  border-radius: 10px;
+  border-color: rgb(236, 150, 46);
+  cursor: pointer;
+}
+.cat-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.horse-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.leopard-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lion-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.tiger-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wolf-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.my-nick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 16px;
+  color: rgb(249, 176, 87);
+}
+
+.ml3 {
+  font-weight: 900;
+  font-size: 17px;
+  font-family: cursive;
+  color: rgb(248, 173, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 100px;
+  font-family: cursive;
+  color: rgb(247, 160, 53);
+  font-weight: 900;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
